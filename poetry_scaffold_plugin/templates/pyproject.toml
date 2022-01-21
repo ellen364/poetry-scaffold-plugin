@@ -1,0 +1,10 @@
+[tool.isort]
+profile = "black"
+
+[tool.coverage.run]
+omit = ["tests/*"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+sort = "-Cover"

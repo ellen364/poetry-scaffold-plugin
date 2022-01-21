@@ -1,0 +1,45 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      # Git errors
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      # File formats often used in Python projects
+      - id: check-toml
+      - id: check-yaml
+      # Security
+      - id: detect-aws-credentials
+        entry: detect-aws-credentials --allow-missing-credentials
+      # Misc oopsies
+      - id: debug-statements
+      - id: name-tests-test
+        # Uncomment if you prefer Django-style test_*.py files
+        # entry: name-tests-test --django
+  - repo: local
+    hooks:
+      - id: black
+        name: black
+        entry: poetry run black
+        language: system
+        types: [python]
+      - id: isort
+        name: isort
+        entry: poetry run isort
+        language: system
+        types: [python]
+      - id: flake8
+        name: flake8
+        entry: poetry run flake8
+        language: system
+        types: [python]
+      - id: mypy
+        name: mypy
+        entry: poetry run mypy
+        language: system
+        types: [python]
+      - id: semgrep
+        name: semgrep
+        entry: poetry run semgrep --config=auto
+        language: system
+        types: [python]
