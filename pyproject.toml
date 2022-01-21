@@ -5,6 +5,7 @@ description = "Poetry plugin that installs and configures dev dependencies, so y
 authors = ["Ellen Potter <38250543+ellen364@users.noreply.github.com>"]
 readme = "README.md"
 license = "MIT"
+repository = "https://github.com/ellen364/poetry-scaffold-plugin"
 packages = [{ include = "poetry_scaffold_plugin" }]
 
 [tool.poetry.plugins."poetry.application.plugin"]
