@@ -351,7 +351,7 @@ lxml = ["lxml"]
 
 [[package]]
 name = "hypothesis"
-version = "6.35.1"
+version = "6.36.0"
 description = "A library for property-based testing"
 category = "dev"
 optional = false
@@ -448,7 +448,7 @@ python-versions = "*"
 
 [[package]]
 name = "ipython"
-version = "8.0.0"
+version = "8.0.1"
 description = "IPython: Productive Interactive Computing"
 category = "dev"
 optional = false
@@ -772,7 +772,7 @@ python-versions = ">=3.6,<4.0"
 
 [[package]]
 name = "pre-commit"
-version = "2.16.0"
+version = "2.17.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -866,7 +866,7 @@ python-versions = "*"
 
 [[package]]
 name = "pyparsing"
-version = "3.0.6"
+version = "3.0.7"
 description = "Python parsing module"
 category = "main"
 optional = false
@@ -1031,7 +1031,7 @@ jeepney = ">=0.6"
 
 [[package]]
 name = "semgrep"
-version = "0.78.0"
+version = "0.79.0"
 description = "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
 category = "dev"
 optional = false
@@ -1244,7 +1244,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "625bbc72356d2291ea33f0edeedc79c5a86495ff9b44cb54133bd2d36e8eab6f"
+content-hash = "669a3b95a19f01584d4f5c0f1893b4304cb5ea09ef6bb8e5531b6120faa61123"
 
 [metadata.files]
 appdirs = [
@@ -1479,8 +1479,8 @@ html5lib = [
     {file = "html5lib-1.1.tar.gz", hash = "sha256:b2e5b40261e20f354d198eae92afc10d750afb487ed5e50f9c4eaf07c184146f"},
 ]
 hypothesis = [
-    {file = "hypothesis-6.35.1-py3-none-any.whl", hash = "sha256:536b928d14934809d0da676579436aaa379b06df84408b4c154412e8fd4e1b91"},
-    {file = "hypothesis-6.35.1.tar.gz", hash = "sha256:8533812bd277925b0c594ef2681dc8f4289a7b6be0169cc2df295d096c7cd783"},
+    {file = "hypothesis-6.36.0-py3-none-any.whl", hash = "sha256:fa9f845b06199ea87e68c6da04a609ff46e381b5d542351184790d54eaca144c"},
+    {file = "hypothesis-6.36.0.tar.gz", hash = "sha256:2b9c56faa067d660f0802679689f825bf142eec8261ab9e2e6ea916b1d8278a1"},
 ]
 hypothesis-fspaths = [
     {file = "hypothesis-fspaths-0.1.tar.gz", hash = "sha256:d1124ddc2a37cb54cdaa573bb16a40841a37598c8fc7b83dd07babffc6b01368"},
@@ -1506,8 +1506,8 @@ iniconfig = [
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
 ipython = [
-    {file = "ipython-8.0.0-py3-none-any.whl", hash = "sha256:5b58cf977635abad74d76be49dbb2e97fddd825fb8503083d55496aa1160b854"},
-    {file = "ipython-8.0.0.tar.gz", hash = "sha256:004a0d05aeecd32adec4841b6e2586d5ca35785b1477db4d8333a39333e0ce98"},
+    {file = "ipython-8.0.1-py3-none-any.whl", hash = "sha256:c503a0dd6ccac9c8c260b211f2dd4479c042b49636b097cc9a0d55fe62dff64c"},
+    {file = "ipython-8.0.1.tar.gz", hash = "sha256:ab564d4521ea8ceaac26c3a2c6e5ddbca15c8848fd5a5cc325f960da88d42974"},
 ]
 isort = [
     {file = "isort-5.10.1-py3-none-any.whl", hash = "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7"},
@@ -1655,8 +1655,8 @@ poetry-core = [
     {file = "poetry_core-1.1.0a6-py3-none-any.whl", hash = "sha256:4093226d89e1b79f16c917fba766461c01b184d3184d7cad4b7be8426c0cb4be"},
 ]
 pre-commit = [
-    {file = "pre_commit-2.16.0-py2.py3-none-any.whl", hash = "sha256:758d1dc9b62c2ed8881585c254976d66eae0889919ab9b859064fc2fe3c7743e"},
-    {file = "pre_commit-2.16.0.tar.gz", hash = "sha256:fe9897cac830aa7164dbd02a4e7b90cae49630451ce88464bca73db486ba9f65"},
+    {file = "pre_commit-2.17.0-py2.py3-none-any.whl", hash = "sha256:725fa7459782d7bec5ead072810e47351de01709be838c2ce1726b9591dad616"},
+    {file = "pre_commit-2.17.0.tar.gz", hash = "sha256:c1a8040ff15ad3d648c70cc3e55b93e4d2d5b687320955505587fd79bbaed06a"},
 ]
 prompt-toolkit = [
     {file = "prompt_toolkit-3.0.24-py3-none-any.whl", hash = "sha256:e56f2ff799bacecd3e88165b1e2f5ebf9bcd59e80e06d395fa0cc4b8bd7bb506"},
@@ -1695,8 +1695,8 @@ pylev = [
     {file = "pylev-1.4.0.tar.gz", hash = "sha256:9e77e941042ad3a4cc305dcdf2b2dec1aec2fbe3dd9015d2698ad02b173006d1"},
 ]
 pyparsing = [
-    {file = "pyparsing-3.0.6-py3-none-any.whl", hash = "sha256:04ff808a5b90911829c55c4e26f75fa5ca8a2f5f36aa3a51f68e27033341d3e4"},
-    {file = "pyparsing-3.0.6.tar.gz", hash = "sha256:d9bdec0013ef1eb5a84ab39a3b3868911598afa494f5faa038647101504e2b81"},
+    {file = "pyparsing-3.0.7-py3-none-any.whl", hash = "sha256:a6c06a88f252e6c322f65faf8f418b16213b51bdfaece0524c1c1bc30c63c484"},
+    {file = "pyparsing-3.0.7.tar.gz", hash = "sha256:18ee9022775d270c55187733956460083db60b37d0d0fb357445f3094eed3eea"},
 ]
 pyreadline = [
     {file = "pyreadline-2.1.win-amd64.exe", hash = "sha256:9ce5fa65b8992dfa373bddc5b6e0864ead8f291c94fbfec05fbd5c836162e67b"},
@@ -1824,9 +1824,9 @@ secretstorage = [
     {file = "SecretStorage-3.3.1.tar.gz", hash = "sha256:fd666c51a6bf200643495a04abb261f83229dcb6fd8472ec393df7ffc8b6f195"},
 ]
 semgrep = [
-    {file = "semgrep-0.78.0-cp36.cp37.cp38.cp39.py36.py37.py38.py39-none-any.whl", hash = "sha256:7f58e7a795f8d6d419f6ae13d44565c5075ab08e07054c24832752dd4f20d860"},
-    {file = "semgrep-0.78.0-cp36.cp37.cp38.cp39.py36.py37.py38.py39-none-macosx_10_14_x86_64.whl", hash = "sha256:0ae8f6fb9b9d5e9920d25662dd92dd0c20d32752b8cd154c1bb0ceca37b8e380"},
-    {file = "semgrep-0.78.0.tar.gz", hash = "sha256:5abb5ecc7a536614a6ee95b2dee762fe50f0cf63a41cc23ef21798c7b94fe1af"},
+    {file = "semgrep-0.79.0-cp36.cp37.cp38.cp39.py36.py37.py38.py39-none-any.whl", hash = "sha256:32791c11030ca24049ca5e3bc99b9d1e2af02b4e69182f504eda936f30f513ed"},
+    {file = "semgrep-0.79.0-cp36.cp37.cp38.cp39.py36.py37.py38.py39-none-macosx_10_14_x86_64.whl", hash = "sha256:e07651a0e2067dddac4c35cd2bab8910ae0744533bb5d09228eed126adc19c0b"},
+    {file = "semgrep-0.79.0.tar.gz", hash = "sha256:42f6ae168fae2c742cc8aff93d61d7c8264fbc2138760f34920b4452fe2abd1f"},
 ]
 setuptools = [
     {file = "setuptools-60.5.0-py3-none-any.whl", hash = "sha256:68eb94073fc486091447fcb0501efd6560a0e5a1839ba249e5ff3c4c93f05f90"},
